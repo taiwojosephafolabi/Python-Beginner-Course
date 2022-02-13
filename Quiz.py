@@ -1,4 +1,4 @@
-# Quiz 1
+# Question 1
 # Create two variables, x=? and y=?
 # where ? is any number of your choice
 # Find:
@@ -22,7 +22,7 @@ print("1c)", c)
 d = x * y
 print("1d)", d)
 
-# Quiz 2
+# Question 2
 # a) Create a list of all the even numbers from 0 to 100
 # b) Print the first 10 elements
 # c) Find the length of the list
@@ -35,7 +35,7 @@ print("2c)", len(Even_Numbers))
 Even_Numbers.append('Joseph')
 print("2d)", Even_Numbers)
 
-# Quiz 3
+# Question 3
 # a) Assign a variable to any integer
 # b) Using an if statement, find whether this integer is divisible by 5
 
@@ -46,14 +46,14 @@ if number % 5 == 0:
 else:
     print("3b) Number is not divisible by 5")
 
-# Quiz 4
+# Question 4
 # Using a for loop, get python to print numbers 0 to 5
 number2 = 0
 for i in range(6):
     number2 = i
     print("4)", number2)  # can just put print(i)
 
-# Quiz 5 - Did not remember
+# Question 5 - Did not remember
 # Draw a pentagon in turtle
 import turtle
 
@@ -62,7 +62,7 @@ for i in range(5):
     turtle.right(72)
 turtle.done()
 
-# Quiz 6
+# Question 6
 # Create a function that tests whether three numbers (a,b,c) are a Pythagorean triple
 a = 5
 b = 12
@@ -71,8 +71,9 @@ def Pythagorean_Triple(a, b, c):
     if a**2 + b**2 == c**2:
         return "6) The numbers are a Pythagorean Triple"
     else:
-        return "6) The numbers are a Pythagorean Triple"
+        return "6) The numbers are not a Pythagorean Triple"
 print(Pythagorean_Triple(a, b, c))
+
 
 # Question 7
 # Spot the error
@@ -97,8 +98,3 @@ plt.ylabel("Trainers bought")
 plt.title("Trainers I bought over the years")
 plt.legend()
 plt.show()
-
-
-
-
-
