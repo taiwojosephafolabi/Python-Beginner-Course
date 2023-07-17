@@ -6,7 +6,7 @@ moves = ["rock", "paper", "scissors"]
 
 # Boolean Loop
 while True:
-    computer = moves[randint(0,2)]
+    computer = moves[randint(0, 2)]
     player = input("Rock,Paper or Scissors? (Or End Game?) ").lower()
     if player == "end game":
         print("The game has ended!")
